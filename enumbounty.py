@@ -7,18 +7,15 @@ def clear_screen():
 def display_banner():
     banner = """
 ==================================================================================
-    ⠤⣤⣤⣤⣄⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⠤⠤⠴⠶⠶⠶⠶
-    ⢠⣤⣤⡄⣤⣤⣤⠄⣀⠉⣉⣙⠒⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠘⣉⢡⣤⡤⠐⣶⡆⢶⠀⣶⣶⡦ 
-    ⣄⢻⣿⣧⠻⠇⠋⠀⠋⠀⢘⣿⢳⣦⣌⠳⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠞⣡⣴⣧⠻⣄⢸⣿⣿⡟⢁⡻⣸⣿⡿⠁
-    ⠈⠃⠙⢿⣧⣙⠶⣿⣿⡷⢘⣡⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣷⣝⡳⠶⠶⠾⣛⣵⡿⠋⠀⠀
-    ⠀⠀⠀⠀⠉⠻⣿⣶⠂⠘⠛⠛⠛⢛⡛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠛⠀⠉⠒⠛⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢸⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀By axroot⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⢻⡁⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-    ⠀⠀⠀⠀⠀⠀⠀⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        .    '      _______________
+                ==c(___(o(______(_()
+                        \=\
+                         )=\
+                        //|\\
+                       //|| \\
+                      // ||  \\
+                     //  ||   \\
+                    //         \\ By axroot
     ___________                      __________                     __          
     \_   _____/ ____  __ __  _____   \______   \ ____  __ __  _____/  |_ ___.__.
      |    __)_ /    \|  |  \/     \   |    |  _//  _ \|  |  \/    \   __<   |  |
@@ -31,13 +28,14 @@ def display_banner():
 
 def show_menu():
     print("Please choose an option:")
-    print("1 - Check Requirements")
-    print("2 - Start Enumeration")
-    print("0 - Exit")
+    print("[1] - Check Requirements")
+    print("[2] - Start Enumeration")
+    print("[3] - About The Tool")
+    print("[0] - Exit")
 
 def check_requirements():
     print("\nChecking Requirements...\n")
-    requirements = ["subfinder", "httpx-toolkit", "katana", "dirsearch"]  # List of basic requirements
+    requirements = ["subfinder", "httpx-toolkit", "katana", "dirsearch"]
     for req in requirements:
         try:
             result = subprocess.run(f"which {req}", shell=True, check=True, text=True, capture_output=True)
@@ -58,24 +56,27 @@ def start_enumeration():
     ]
 
     for command in commands:
-        print(f"\nExecuting command: {command}\n")
+        print(f"\n[*] Executing command: {command}\n")
         try:
             result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
             if result.stdout:
                 print(f"Output:\n{result.stdout}")
             if result.stderr:
-                print(f"Errors:\n{result.stderr}")
-            print(f"Command completed successfully ✅: {command}\n")
+                print(f"[X] Errors:\n{result.stderr}")
+            print(f"[✅]Command completed successfully: {command}\n")
         except subprocess.CalledProcessError as e:
             print(f"An error occurred while executing the command ❌:\n{e.stderr}")
             break
+
+def about():
+    print("The Enum Bounty tool automates the enumeration process in Bug Bounty programs by performing \na wide variety of enumeration tasks. With Enum Bounty, you can efficiently discover subdomains, \nidentify active services and ports, gather URLs, and locate sensitive files, all in an automated manner.")
 
 def main():
     while True:
         clear_screen()
         display_banner()
         show_menu()
-        choice = input("\nEnter your choice: ")
+        choice = input("\nEnter your choice -> ")
         
         clear_screen()
         display_banner()
@@ -84,6 +85,8 @@ def main():
             check_requirements()
         elif choice == '2':
             start_enumeration()
+        elif choice == '3':
+            about()
         elif choice == '0':
             print("Exiting the program.")
             break
