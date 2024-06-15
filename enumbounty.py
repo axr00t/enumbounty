@@ -56,7 +56,9 @@ def start_enumeration():
     ]
 
     for command in commands:
-        print(f"\n[*] Executing command: {command}\n")
+        clear_screen()
+        display_banner()
+        print(f"\n[***] Executing command: {command}\n")
         try:
             result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
             if result.stdout:
