@@ -2,7 +2,7 @@
   Enum Bounty
 </h1>
 <br>
-<img align="center" src="https://i.imgur.com/m11Ln1b.png"/>
+<img align="center" src="https://i.imgur.com/zHQmuSp.png"/>
 
 <br>
 
